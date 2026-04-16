@@ -15,8 +15,8 @@ from sklearn.model_selection import RandomizedSearchCV, GridSearchCV
 import joblib
 from catboost import CatBoostClassifier
 
-model = joblib.load('catboost.cbm')
-scaler = joblib.load('scaler.joblib')
+model = joblib.load('models/catboost.cbm')
+scaler = joblib.load('models/scaler.joblib')
 
 healthy_person = [74, 'F', 'NAP', 125, 215, 0, 'Normal', 150, 'N', 0.0, 'Up']
 sick_person = [26, 'M', 'ASY', 140, 290, 1, 'ST', 130, 'Y', 1.8, 'Flat']
