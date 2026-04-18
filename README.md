@@ -95,8 +95,8 @@ The model is trained on the [Heart Failure Prediction Dataset](https://www.kaggl
 
 
 The CatBoost model was trained with the following hyperparameters:
-- **iterations**: 100
-- **depth**: 4
+- **iterations**: 145
+- **depth**: 8
 - **learning_rate**: 0.1
 - **l2_leaf_reg**: 5
 - **border_count**: 128
