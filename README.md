@@ -52,7 +52,7 @@ This project consists of three main components:
 ### Project Structure
 
 ```
-prodaction/
+Heart-failure-prediction/
 ├── README.md
 ├── photos/
 │   ├── image.png
