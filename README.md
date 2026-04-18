@@ -1,4 +1,4 @@
-# Heart Disease Prediction
+# Heart Failure Prediction
 
 A machine learning project for predicting the risk of heart disease using clinical and physiological data. The application provides predictions with explainability features powered by SHAP (SHapley Additive exPlanations) to help understand which factors contribute most to the prediction.
 
