@@ -26,7 +26,7 @@ if submit:
             "Oldpeak": Oldpeak, "ST_Slope": ST_Slope
         }
     
-    response = requests.post('http://127.0.0.1:8000/score', json=data)
+    response = requests.post('http://localhost:8000/score', json=data)
     result = response.json()
     prob = result['Probability']
     factors = result.get('TopFactors', [])
