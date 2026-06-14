@@ -11,7 +11,7 @@ A machine learning project for predicting the risk of heart disease using clinic
 ```bash
 git clone https://github.com/Zhanali0663/Heart-failure-prediction
 cd Heart-failure-prediction/
-python3 -m venv .venv
+python -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
 ```
